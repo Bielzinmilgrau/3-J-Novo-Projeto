@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+:root{
+    --cor-de-fundo: #181C14;
+    --cor-primaria: #3C3D37;
+    --cor-secundaria: #697565
+    --fonte: "Fascinate Inline", system-ui;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color:#3C3D37;
+    font-family: var(--fonte);
+
+}
