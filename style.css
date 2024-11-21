@@ -13,6 +13,7 @@ body{
     background-color:var(--cor-de-fundo);
     color:var(--cor-primaria);
     font-family: var(--fonte);
+    width: 100vw;
     height: 100vh;
     margin: 0;
 }
@@ -51,6 +52,12 @@ footer{
     padding: 10px;
     background-color: var(--cor-primaria);
     color: var(--cor-de-fundo);
+    transition: 0.5s;
+}
+footer:hover{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-primaria);
+    transition: 0.5s;
 }
 .graficos-container{
     margin: 5rem;
